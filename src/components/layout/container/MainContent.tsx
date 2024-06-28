@@ -5,5 +5,5 @@ interface Props {
 }
 
 export const MainContent: React.FC<Props> = ({ children }) => {
-  return <main>{children}</main>;
+  return <main className=" bg-slate-100 w-full">{children}</main>;
 };

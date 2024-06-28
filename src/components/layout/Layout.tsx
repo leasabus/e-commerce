@@ -9,7 +9,7 @@ interface LayoutProps {
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center m-auto max-w-[1300px] ">
       <Navbar />
       <MainContent>{children}</MainContent>
       <Footer />

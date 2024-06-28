@@ -1,9 +1,7 @@
+import { AppRouter } from "./routes/AppRouter";
+
 const App = () => {
-  return (
-    <div className="flex flex-col items-center">
-      <h1 className="text-2xl">E commerce</h1>
-    </div>
-  );
+  return <AppRouter />;
 };
 
 export default App;

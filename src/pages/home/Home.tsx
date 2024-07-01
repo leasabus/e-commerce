@@ -1,9 +1,9 @@
+import { Banner } from "../../components/home/banner/Banner";
+
 export const Home = () => {
   return (
     <div className="">
-      <div className="h-[300px] bg-backgroundDark p-6">
-        <span>Banner</span>
-      </div>
+      <Banner />
 
       <div className="h-[200px] p-6">
         <span>Categories</span>

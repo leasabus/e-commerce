@@ -1,0 +1,13 @@
+.slick-dots li button:before {
+    font-size: 12px !important;
+    color: blue; /* Cambia esto al color que desees */
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #e52f2d !important; /* Color de los "dots" activos */
+  }
+
+
+  .slick-dots {
+    bottom: 20px !important; /* Ajusta la posición vertical de los "dots" */
+  }

@@ -1,0 +1,14 @@
+#card1 {
+    background-image: url("../../../../public/assets/sugestedProducts/sugested2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#card2 {
+    background-image: url("../../../../public/assets/sugestedProducts/sugested1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

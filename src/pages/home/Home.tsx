@@ -1,4 +1,5 @@
 import { Banner } from "../../components/home/banner/Banner";
+import { ProductShopCart } from "../../components/home/productsShopCarts/ProductShopCart";
 import ProductsSlide from "../../components/home/productsSlide/ProductsSlide";
 import { trendingCategories } from "../../data/trendingCategories";
 
@@ -9,15 +10,7 @@ export const Home = () => {
 
       <ProductsSlide array={trendingCategories} title="Trending Categories" />
 
-      <div className="h-[300px] w-full flex flex-row items-center justify-center gap-10 p-6">
-        <div className="bg-slate-400 w-[350px] h-[250px]">
-          <span>Card1</span>
-        </div>
-
-        <div className="bg-slate-400 h-[250px] w-[350px]">
-          <span>Card2</span>
-        </div>
-      </div>
+      <ProductShopCart />
 
       <div className="h-[200px] p-6">
         <span>Categories</span>

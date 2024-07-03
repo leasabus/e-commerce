@@ -1,6 +1,7 @@
 import { Banner } from "../../components/home/banner/Banner";
 import { ProductShopCart } from "../../components/home/productsShopCarts/ProductShopCart";
 import ProductsSlide from "../../components/home/productsSlide/ProductsSlide";
+import { TrendingCategories } from "../../components/home/trendingCategories/TrendingCategories";
 import { trendingCategories } from "../../data/trendingCategories";
 
 export const Home = () => {
@@ -12,9 +13,7 @@ export const Home = () => {
 
       <ProductShopCart />
 
-      <div className="h-[200px] p-6">
-        <span>Categories</span>
-      </div>
+      <TrendingCategories />
 
       <div className="h-[300px] bg-slate-300 p-6">
         <span>Banner2</span>

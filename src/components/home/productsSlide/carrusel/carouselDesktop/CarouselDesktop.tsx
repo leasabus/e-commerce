@@ -1,12 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { TrendingCategories } from "../../../../../interfaces/types";
 
 interface Props {
-  array: TrendingCategories[];
+  array: any[];
 }
 
 export const CarruselDesktop: React.FC<Props> = ({ array }) => {
@@ -24,7 +22,7 @@ export const CarruselDesktop: React.FC<Props> = ({ array }) => {
       {array.map((element) => (
         <div
           key={element.id}
-          className="flex items-center p-8  justify-center text-center bg-white h-[400px] w-[300px] "
+          className="flex items-center px-4   justify-center text-center bg-white h-[350px] w-[300px] "
         >
           <img className="mt-10" src={element.image} alt="" />
           <div className="flex flex-col items-center">

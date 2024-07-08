@@ -18,7 +18,7 @@ const ProductsSlide: React.FC<Props> = ({ array, title }) => {
         {title}
       </span>
       {isMobile ? (
-        <CarruselMobile array={trendingCategories} />
+        <CarruselMobile productHasPrice={false} array={trendingCategories} />
       ) : (
         <div className="flex flex-row w-full mt-6 justify-around">
           {array.length === 0 ? (

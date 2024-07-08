@@ -4,9 +4,9 @@ import google from "../../../../public/assets/google-play.webp";
 
 export const Footer: React.FC = () => {
   return (
-    <div className="grid grid-cols-4 pt-8 px-6 w-full h-[300px] bg-white">
+    <div className="grid grid-cols-4 pt-8 px-8 w-full h-[250px] bg-[#f8f8f8] ">
       <div className="flex flex-col gap-2">
-        <span className="font-bold text-text text-md">Contact Us</span>
+        <span className="font-bold  text-text text-md">Contact Us</span>
         <span className="mt-4 text-text text-sm">Drou Demo Store</span>
         <span className="text-text text-sm">Buenos Aires, Argentina</span>
         <span className="text-text text-sm">+011-215654</span>

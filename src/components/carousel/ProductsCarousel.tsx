@@ -6,10 +6,9 @@ import "slick-carousel/slick/slick-theme.css";
 
 interface Props {
   array: any[];
-  productHasPrice: boolean;
 }
 
-export const CarruselMobile: React.FC<Props> = ({ array, productHasPrice }) => {
+export const ProductsCarousel: React.FC<Props> = ({ array }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -22,19 +21,10 @@ export const CarruselMobile: React.FC<Props> = ({ array, productHasPrice }) => {
       {array.map((element) => (
         <div
           key={element.id}
-          className="flex items-center justify-center text-center bg-white h-[470px] w-[300px] rounded-xl "
+          className="flex items-center justify-center text-center bg-white h-[450px] w-[300px] "
         >
           <img className="w-full" src={element.image} alt="" />
           <span className="text-2xl font-medium">{element.title}</span>
-          {productHasPrice ? (
-            <div className="flex items-center justify-center ">
-              <span className="text-orange font-bold text-xl">
-                ${element.actualPrice}
-              </span>
-            </div>
-          ) : (
-            ""
-          )}
         </div>
       ))}
     </Slider>

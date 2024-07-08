@@ -1,4 +1,3 @@
-import React from "react";
 import blog1 from "../../../../public/assets/blogs/blog1.webp";
 import blog2 from "../../../../public/assets/blogs/blog2.webp";
 import blog3 from "../../../../public/assets/blogs/blog3.webp";
@@ -10,7 +9,7 @@ export const Blogs = () => {
       <span className="text-2xl md:text-3xl text-text font-medium">
         Blogs & Events
       </span>
-      <div className="grid grid-cols-3 gap-4 mt-6">
+      <div className="flex flex-col items-center gap-8 md:grid md:grid-cols-3 md:gap-4 mt-6">
         <div>
           <img className="rounded-xl" src={blog1} alt="" />
           <div className="flex flex-row items-center mt-2 gap-1">

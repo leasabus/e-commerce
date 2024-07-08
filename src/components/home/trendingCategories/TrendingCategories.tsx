@@ -9,7 +9,12 @@ export const TrendingCategories = () => {
   return (
     <div className="flex flex-col bg-white h-[300px] p-6">
       {isMobile ? (
-        <CarruselMobile productHasPrice={true} array={popularProducts} />
+        <>
+          <span className="text-2xl pt-6 md:text-3xl text-text font-medium">
+            Latest Products
+          </span>
+          <CarruselMobile productHasPrice={true} array={popularProducts} />
+        </>
       ) : (
         <>
           <span className="text-2xl pt-6 md:text-3xl text-text font-medium">

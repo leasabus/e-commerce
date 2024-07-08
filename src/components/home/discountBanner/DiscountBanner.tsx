@@ -7,7 +7,7 @@ import useMediaQuery from "../../../hooks/useMediaQuery";
 export const DiscountBanner = () => {
   const isMobile = useMediaQuery("(max-width: 768px)");
   return (
-    <div className="flex flex-col  md:grid md:grid-cols-2 mt-[200px] md:mt-0 w-full h-[350px] md:h-[550px] bg-white gap-10">
+    <div className="flex flex-col  md:grid md:grid-cols-2 mt-[250px] md:mt-0 w-full h-[350px] md:h-[550px] bg-white gap-10">
       <div className="flex flex-col justify-center items-center">
         <h2 className="text-2xl mt-12 md:text-4xl font-medium text-text">
           Up To 25% Discount

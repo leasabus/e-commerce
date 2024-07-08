@@ -5,7 +5,7 @@ import "./Banner.css";
 export const Banner = () => {
   return (
     <div className="h-[550px] bg-white p-6 flex flex-col items-center justify-center md:grid md:grid-cols-2 shadow-xl">
-      <div className="flex flex-col  justify-center">
+      <div className="flex flex-col justify-center">
         <span className="text-1xl md:text-2xl text-orange">
           SALE UP TO 30% OFF
         </span>

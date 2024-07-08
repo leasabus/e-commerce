@@ -12,7 +12,7 @@ import { trendingCategories } from "../../data/trendingCategories";
 
 export const Home = () => {
   return (
-    <div className="">
+    <section>
       <Banner />
 
       <ProductsSlide array={trendingCategories} title="Trending Categories" />
@@ -30,6 +30,6 @@ export const Home = () => {
       <BigDiscountBanner />
 
       <ProductsInformation />
-    </div>
+    </section>
   );
 };

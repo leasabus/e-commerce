@@ -4,7 +4,7 @@ import productPersonalize from "../../../../public/assets/productsInformation/pr
 
 export const ProductsInformation = () => {
   return (
-    <div className="grid grid-cols-3 p-6 h-[230px] w-full bg-white ">
+    <div className=" flex flex-col h-auto md:grid md:grid-cols-3 p-6 md:h-[230px] w-full bg-white ">
       <div className="flex flex-col items-center">
         <img src={productDelivery} alt="" />
         <span className="font-bold text-text mt-4">Free delivery</span>

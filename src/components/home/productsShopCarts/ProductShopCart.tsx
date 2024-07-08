@@ -5,7 +5,7 @@ export const ProductShopCart = () => {
     <div className="flex flex-col mt-60 md:mt-0 md:flex-row items-center justify-center gap-10 w-full bg-white">
       <div
         id="card1"
-        className="bg-slate-200 shadow-xl w-[500px] h-[500px] flex flex-col items-center pt-12 rounded-xl"
+        className="bg-slate-200 shadow-xl w-[500px] h-[400px] flex flex-col items-center pt-12 rounded-xl"
       >
         <span className="text-[12px] text-text">SECURITY SMART CAMERA</span>
         <span className="mt-2 text-text text-xl">Just Starting At $850</span>
@@ -16,7 +16,7 @@ export const ProductShopCart = () => {
 
       <div
         id="card2"
-        className="bg-slate-200 shadow-xl  w-[500px] h-[500px] flex flex-col items-center pt-12  rounded-xl"
+        className="bg-slate-200 shadow-xl  w-[500px] h-[400px] flex flex-col items-center pt-12  rounded-xl"
       >
         <span className="text-[12px] text-text">ENTERTAINMENT & GAMES</span>
         <span className="mt-2 text-text text-xl">

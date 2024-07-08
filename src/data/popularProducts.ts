@@ -1,9 +1,9 @@
-import image1 from "../../public/assets/popularProducts/iphone15 pro.png";
-import image2 from "../../public/assets/popularProducts/iphone14.png";
-import image3 from "../../public/assets/popularProducts/ipad.png";
-import image4 from "../../public/assets/popularProducts/applewatchseries.png";
-import image5 from "../../public/assets/popularProducts/applewatch.png";
-import image6 from "../../public/assets/popularProducts/appleTv.jpeg";
+import image1 from "../../public/assets/popularProducts/popularProducts/apple tv.webp";
+import image2 from "../../public/assets/popularProducts/popularProducts/apple watch.webp";
+import image3 from "../../public/assets/popularProducts/popularProducts/charger.webp";
+import image4 from "../../public/assets/popularProducts/popularProducts/macbook.webp";
+import image5 from "../../public/assets/popularProducts/popularProducts/speaker.webp";
+import image6 from "../../public/assets/popularProducts/popularProducts/tablet.webp";
 import { PopularProducts } from "../interfaces/types";
 
 export const popularProducts: PopularProducts[] = [

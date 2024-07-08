@@ -19,7 +19,7 @@ export const PopularProductsGrid: React.FC<Props> = ({ array }) => {
             key={item.id}
           >
             <img
-              className="w-[120px] h-[150px] rounded-xl"
+              className="w-[200px] h-[200px] rounded-xl"
               src={item.image}
               alt=""
             />

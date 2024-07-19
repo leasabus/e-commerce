@@ -14,9 +14,9 @@ export const Contact: React.FC = () => {
         the response within 24 hours. Love to hear from you!
       </span>
 
-      <div className="grid grid-cols-3 gap-20 mt-10">
-        <div className="flex flex-row gap-4 items-start justify-start h-[100px]">
-          <div className="flex flex-row items-center gap-4">
+      <div className="flex flex-col items-center justify-center gap-10 md:grid md:grid-cols-3 md:gap-20 mt-10">
+        <div className="flex  flex-row gap-4  items-start w-[350px] md:w-auto justify-start md:h-[100px]">
+          <div className="flex flex-row items-center  gap-4">
             <FaLocationDot size={24} className="text-orange" />
           </div>
           <div className="flex flex-col items-start justify-center">
@@ -27,7 +27,7 @@ export const Contact: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-4 items-start justify-start h-[100px]">
+        <div className="flex flex-row gap-4 items-start justify-start w-[350px] md:w-auto h-[100px]">
           <div className="flex flex-row items-center gap-4">
             <IoCall size={24} className="text-orange" />
           </div>
@@ -45,7 +45,7 @@ export const Contact: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-4 items-start justify-start h-[100px]">
+        <div className="flex mr-4 flex-row gap-4 items-start justify-start ml-5 w-[350px] md:w-auto h-[100px]">
           <div className="flex flex-row items-center gap-4">
             <IoTime size={24} className="text-orange" />
           </div>
@@ -56,7 +56,7 @@ export const Contact: React.FC = () => {
             <span className="text-[12px] mt-4 text-text">
               Monday - Friday : 9:00 - 20:00
             </span>
-            <span className="text-[12px] mt-1 text-text">
+            <span className="text-[12px]  mt-1 text-text">
               Sunday - Saturday : 10:30 - 22:00
             </span>
           </div>

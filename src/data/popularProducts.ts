@@ -13,6 +13,7 @@ export const popularProducts: PopularProducts[] = [
     actualPrice: "50.00",
     oldPrice: "70.00",
     image: image1,
+    categoryId: "4",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const popularProducts: PopularProducts[] = [
     actualPrice: "50.00",
     oldPrice: "130.00",
     image: image2,
+    categoryId: "6",
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ export const popularProducts: PopularProducts[] = [
     actualPrice: "900.00",
     oldPrice: "130.00",
     image: image3,
+    categoryId: "1",
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const popularProducts: PopularProducts[] = [
     actualPrice: "1100.00",
     oldPrice: "130.00",
     image: image4,
+    categoryId: "5",
   },
   {
     id: 5,
@@ -41,6 +45,7 @@ export const popularProducts: PopularProducts[] = [
     actualPrice: "990.00",
     oldPrice: "130.00",
     image: image5,
+    categoryId: "1",
   },
   {
     id: 6,
@@ -48,5 +53,22 @@ export const popularProducts: PopularProducts[] = [
     actualPrice: "110.00",
     oldPrice: "130.00",
     image: image6,
+    categoryId: "3",
+  },
+  {
+    id: 3,
+    title: "Iphone 13 Pro",
+    actualPrice: "900.00",
+    oldPrice: "130.00",
+    image: image3,
+    categoryId: "1",
+  },
+  {
+    id: 3,
+    title: "Iphone 13 Pro",
+    actualPrice: "900.00",
+    oldPrice: "130.00",
+    image: image3,
+    categoryId: "1",
   },
 ];

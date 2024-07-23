@@ -1,7 +1,8 @@
 export interface TrendingCategories {
-  id: number;
+  id: string | undefined;
   image: string;
   title: string;
+  products?: [];
 }
 
 /*Types used in popular products*/
@@ -11,4 +12,5 @@ export interface PopularProducts {
   actualPrice?: string;
   oldPrice?: string;
   image?: string;
+  categoryId: string;
 }

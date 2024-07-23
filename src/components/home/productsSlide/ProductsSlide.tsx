@@ -3,6 +3,7 @@ import { TrendingCategories } from "../../../interfaces/types";
 import useMediaQuery from "../../../hooks/useMediaQuery";
 import { CarruselMobile } from "./carrusel/CarruselMobile";
 import { trendingCategories } from "../../../data/trendingCategories";
+import { Link } from "react-router-dom";
 
 interface Props {
   array: TrendingCategories[];
@@ -11,7 +12,6 @@ interface Props {
 
 const ProductsSlide: React.FC<Props> = ({ array, title }) => {
   const isMobile = useMediaQuery("(max-width: 768px)");
-
   return (
     <div className="flex flex-col bg-white h-[300px] p-6">
       <span className="text-2xl md:text-3xl text-text font-medium">
@@ -25,10 +25,12 @@ const ProductsSlide: React.FC<Props> = ({ array, title }) => {
             <p>No elements</p>
           ) : (
             array.map((element) => (
-              <div key={element.id} className="flex flex-col items-center">
-                <img className="w-[120px]" src={element.image} alt="" />
-                <span>{element.title}</span>
-              </div>
+              <Link key={element.id} to={`/category/${element.id}`}>
+                <div className="flex flex-col items-center">
+                  <img className="w-[120px]" src={element.image} alt="" />
+                  <span>{element.title}</span>
+                </div>
+              </Link>
             ))
           )}
         </div>
